@@ -1,0 +1,8 @@
+>>> from vehicle import Vehicle
+>>> from vehicle import Vehicle, MyCar
+>>> v1 = Vehicle('doodoo')
+>>> v2 = MyCar('baaam')
+>>> v1.__dict__
+{'_Vehicle__horn': 'doodoo'}
+>>> v2.__dict__
+{'_MyCar__horn': 'baaam'}
